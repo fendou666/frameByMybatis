@@ -1,0 +1,9 @@
+package ls.test;
+
+public class MBTest {
+	
+	
+	public void oracleTest(){
+		
+	}
+}
