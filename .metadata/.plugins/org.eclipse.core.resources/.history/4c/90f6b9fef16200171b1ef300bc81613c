@@ -1,9 +1,0 @@
-package ls.test;
-// 需要addlib中添加Junit
-import org.junit.Test;
-public class MBTest {
-	@Test
-	public void oracleTest(){
-		
-	}
-}

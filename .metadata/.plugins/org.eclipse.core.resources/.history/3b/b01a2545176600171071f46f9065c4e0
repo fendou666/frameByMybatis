@@ -1,0 +1,10 @@
+package ls.test;
+
+public class TestMoreTableQuery {
+	
+	public void test1(){
+		
+		
+		
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;MB20170711Mysql&apos;&#x0D;&#x0A;- Original project: &apos;MB20170711Mysql&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     MB20170711Mysql/src/ls.dao&#x0D;&#x0A;     MB20170711Mysql/src/ls.mapping&#x0D;&#x0A;     MB20170711Mysql/src/ls.model" description="Delete elements" element1="/src&lt;ls.model" element2="/src&lt;ls.mapping" element3="/src&lt;ls.dao" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1499747366970" subPackages="false" version="1.0"/>
+</session>

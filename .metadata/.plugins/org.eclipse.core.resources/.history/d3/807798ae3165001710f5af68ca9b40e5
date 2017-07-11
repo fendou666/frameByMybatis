@@ -1,0 +1,26 @@
+package com.mybatis.intercept;
+
+import java.util.Properties;
+
+import org.apache.ibatis.plugin.Interceptor;
+import org.apache.ibatis.plugin.Invocation;
+
+public class MyIntercept implements Interceptor {
+
+	@Override
+	public Object intercept(Invocation inv) throws Throwable {
+		
+		return null;
+	}
+
+	@Override
+	public Object plugin(Object inv) {
+		return null;
+	}
+
+	@Override
+	public void setProperties(Properties arg0) {
+
+	}
+
+}

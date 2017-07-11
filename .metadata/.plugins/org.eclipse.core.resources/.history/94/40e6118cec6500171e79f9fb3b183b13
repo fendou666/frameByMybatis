@@ -1,0 +1,54 @@
+package com.mybatis.typehandles;
+
+import java.sql.CallableStatement;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.apache.ibatis.type.BaseTypeHandler;
+import org.apache.ibatis.type.JdbcType;
+
+public class StringAConvert  extends BaseTypeHandler<String []>{
+
+	@Override
+	public String[] getNullableResult(ResultSet rs, String columnName)
+			throws SQLException {
+		String likesStr = rs.getString(columnName);
+		if(likesStr == null){
+			return null;
+		}else{
+			String[] split = likesStr.split("-");
+		}
+		return split;
+	}
+
+	@Override
+	public String[] getNullableResult(ResultSet rs, int columnIndex)
+			throws SQLException {
+		String likesStr = rs.getString(columnIndex);
+		String[] split = likesStr.split("-");
+		return split;
+	}
+
+	@Override
+	public String[] getNullableResult(CallableStatement cs, int columnIndex)
+			throws SQLException {
+		String likesStr = cs.getString(columnIndex);
+		String[] split = likesStr.split("-");
+		return split;
+	}
+
+	@Override
+	public void setNonNullParameter(PreparedStatement ps, int columnIndex,
+			String[] likes, JdbcType jdbcType)  throws SQLException {
+		String value="";
+		
+		for(String x: likes){
+			value+= x + "-";
+		}
+		if(value.length()>0){
+			value = value.substring(0, value.length()-1);
+		}
+		ps.setString(columnIndex, value);
+	}
+}

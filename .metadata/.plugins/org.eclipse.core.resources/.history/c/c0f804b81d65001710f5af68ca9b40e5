@@ -1,0 +1,7 @@
+package com.mybatis.convert;
+
+import org.apache.ibatis.type.BaseTypeHandler;
+
+public class StringAConvert  extends BaseTypeHandler{
+
+}

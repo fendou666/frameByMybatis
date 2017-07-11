@@ -1,0 +1,14 @@
+package ls.test;
+
+import java.io.InputStream;
+
+import org.apache.ibatis.io.Resources;
+
+public class TestMoreTableQuery {
+	
+	public void test1(){
+		 = Resources.getResourceAsStream("configuration.xml");
+		
+		
+	}
+}
