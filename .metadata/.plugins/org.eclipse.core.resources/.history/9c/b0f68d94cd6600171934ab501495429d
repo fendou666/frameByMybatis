@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MB20170712ResultMap3">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="MB20170712ResultMap3"/>
+        <property name="java-output-path" value="/MB20170712ResultMap3/build/classes"/>
+    </wb-module>
+</project-modules>

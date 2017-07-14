@@ -11,10 +11,17 @@
 <fullyQualifiedTypeName name="org.apache.ibatis.executor.statement.StatementHandler"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.plugin.Plugin"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
 <fullyQualifiedTypeName name="ls.model.Student"/>
 <fullyQualifiedTypeName name="ls.dao.StudentMapper"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="javassist.bytecode.stackmap.TypeData.ClassName"/>
+<fullyQualifiedTypeName name="ls.dao.ClassNameMapper"/>
+<fullyQualifiedTypeName name="ls.model.ClassName"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
