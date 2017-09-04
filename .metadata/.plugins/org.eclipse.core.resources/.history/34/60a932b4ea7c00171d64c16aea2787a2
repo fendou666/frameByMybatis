@@ -9,7 +9,7 @@ import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
 
 public class StringAConvert  extends BaseTypeHandler<String []>{
-	
+
 	@Override
 	public String[] getNullableResult(ResultSet rs, String columnName)
 			throws SQLException {
@@ -25,8 +25,7 @@ public class StringAConvert  extends BaseTypeHandler<String []>{
 		String[] split = likesStr.split("-");
 		return split;
 	}
-	
-//	通过cs（调用存储过程/函数方式将 是cs.execute后cs.getString(相应位置的值)）
+
 	@Override
 	public String[] getNullableResult(CallableStatement cs, int columnIndex)
 			throws SQLException {
@@ -34,7 +33,7 @@ public class StringAConvert  extends BaseTypeHandler<String []>{
 		String[] split = likesStr.split("-");
 		return split;
 	}
-	
+
 //	通过动态sql进行设置值
 	@Override
 	public void setNonNullParameter(PreparedStatement ps, int columnIndex,

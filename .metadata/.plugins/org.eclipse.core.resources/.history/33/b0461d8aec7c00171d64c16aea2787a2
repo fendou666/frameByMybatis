@@ -9,7 +9,7 @@ import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
 
 public class StringAConvert  extends BaseTypeHandler<String []>{
-	
+
 	@Override
 	public String[] getNullableResult(ResultSet rs, String columnName)
 			throws SQLException {
